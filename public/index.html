@@ -49,16 +49,16 @@
                     id="submitButton" disabled>SUBMIT</button>
             </form>
             <div class="bg-base-200 mt-3 border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] mt-3 p-4">
-                <div class="join">
+                <div class="flex items-center gap-2 mb-4">
                     <label
-                        class="input input-bordered flex items-center  gap-2 input-sm mb-4 border-2  border-black rounded-none">
-                        <input type="text" id="searchInput" class="grow join-item"
-                            placeholder="Search Collection ..." />
+                        class="input input-bordered flex items-center gap-2 input-sm border-2 border-black rounded-none w-full">
+                        <input type="text" id="searchInput" class="grow" placeholder="Search Collection ..." />
                         <i class="bi bi-search text-xs"></i>
                     </label>
                     <button onclick="question.showModal()"
-                        class="btn join-item rounded-none btn-sm px-4 border-2 bg-base-300 border-black rounded-none"><i
-                            class="bi bi-question-circle"></i></button>
+                        class="btn rounded-none btn-sm border-2 bg-base-300 border-black">
+                        <i class="bi bi-question-circle"></i>
+                    </button>
                 </div>
                 <div class="overflow-x-auto">
                     <table class="table table-xs table-zebra">
